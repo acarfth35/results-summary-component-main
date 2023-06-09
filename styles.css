@@ -2,8 +2,12 @@ main {
     display: flex;
     justify-content: center;
     font-family: "Hanken Grotesk", sans-serif;
+    padding-top: 100px;
+    max-width: 100%;
+    flex-wrap: wrap;
     
 }
+
 
 .box1 {
     color: white;
@@ -16,6 +20,8 @@ main {
     background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     text-align: center;
     border-radius: 8%;
+    
+    
 }
 
 .circle {
@@ -41,3 +47,85 @@ main {
     flex-direction: column;
     padding: 10px;
 }
+
+.box2 {
+    font-family: "Hanken Grotesk", sans-serif;
+    color: black;
+    width: 320px;
+    padding-left: 20px; 
+    margin: 0;
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(236, 236, 238));
+    text-align: left;
+    border-radius: 0 8% 8% 0;
+    margin-left: 2px;
+    
+    
+}
+.summary {
+    
+    font-weight: 800;
+    
+}
+body{
+    background-color: whitesmoke;
+}
+
+.category {
+    display: flex;
+    background-color: rgb(231, 231, 231);
+    font-size: 16px;
+    width:290px ;
+    height: auto;
+    padding: 5px;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-around;
+    border-radius: 5px;
+    margin: 10px;
+   
+}
+
+.ct1 {
+    color: hsl(0, 100%, 67%);
+    font-weight: bold;
+    background: hsla(0, 100%, 67%, 0.1)
+}
+.ct2 {
+    color: hsl(39, 100%, 56%);
+    font-weight: bold;
+    background: hsl(39, 100%, 56%, 0.1);
+  }
+  .ct3 {
+    color: hsl(166, 100%, 37%);
+    font-weight: bold;
+    background: hsl(166, 100%, 37%, 0.1);
+  }
+  .ct4 {
+    color: hsl(234, 85%, 45%);
+    font-weight: bold;
+    background: hsla(210, 56%, 55%, 0.1);
+  }
+
+  .txt{
+    padding: 5px;
+   
+  }
+  .btn {
+    font-family: "Hanken Grotesk" , sans-serif;
+    display: flex;
+    background-color: navy;
+    font-size: 20px;
+    width:290px ;
+    height: auto;
+    border-radius: 20px;
+    padding: 10px;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    margin: 10px;
+    color: white;
+    
+  }
